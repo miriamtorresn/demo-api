@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "xabikos.javascriptsnippets",
+    "mikestead.dotenv",
+    "dotenv.dotenv-vscode",
+    "pkief.material-icon-theme",
+    "wayou.vscode-todo-highlight",
+    "yzhang.markdown-all-in-one",
+    "editorconfig.editorconfig"
+  ]
+}
