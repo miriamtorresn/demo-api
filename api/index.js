@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const config = require('../config.js');
-const copy = require('../copy/main.js');
+const copy = require('../messages/main.js');
 const user = require('./components/user/router.js');
 
 const app = express();
@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 app.use('/api/user', user);
 
 app.listen(port, () => {
+  //eslint-disable-next-line no-console
   console.info(
     `${copy.LISTENING_IN_PORT}: ${config.api.protocol}://${config.api.host}:${port}`
   );

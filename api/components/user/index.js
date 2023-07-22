@@ -1,5 +1,4 @@
-const store = require('../../../store/dummy');
 const controller = require('./controller');
+const store = require('../../../store');
 
-// Loading controller injecting a store (for future mongodb injection)
 module.exports = controller(store);
